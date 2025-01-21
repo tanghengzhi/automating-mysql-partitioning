@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Victor Tang\AutomatingMysqlPartitioning\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AutomatingMysqlPartitioningCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'automating-mysql-partitioning';
 
     public $description = 'My command';
 

@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "tanghengzhi/automating-mysql-partitioning",
+    "description": "This is my package automating-mysql-partitioning",
     "keywords": [
-        ":vendor_name",
+        "Victor Tang",
         "laravel",
-        ":package_slug"
+        "automating-mysql-partitioning"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/tanghengzhi/automating-mysql-partitioning",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Victor Tang",
+            "email": "tanghengzhi@live.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Victor Tang\\AutomatingMysqlPartitioning\\": "src/",
+            "Victor Tang\\AutomatingMysqlPartitioning\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Victor Tang\\AutomatingMysqlPartitioning\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Victor Tang\\AutomatingMysqlPartitioning\\AutomatingMysqlPartitioningServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "AutomatingMysqlPartitioning": "Victor Tang\\AutomatingMysqlPartitioning\\Facades\\AutomatingMysqlPartitioning"
             }
         }
     },
