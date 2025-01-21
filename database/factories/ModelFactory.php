@@ -1,6 +1,6 @@
 <?php
 
-namespace Victor Tang\AutomatingMysqlPartitioning\Database\Factories;
+namespace VictorTang\AutomatingMysqlPartitioning\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

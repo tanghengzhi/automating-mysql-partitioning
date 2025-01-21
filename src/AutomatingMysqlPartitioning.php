@@ -1,5 +1,5 @@
 <?php
 
-namespace Victor Tang\AutomatingMysqlPartitioning;
+namespace VictorTang\AutomatingMysqlPartitioning;
 
 class AutomatingMysqlPartitioning {}

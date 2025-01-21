@@ -52,7 +52,7 @@ php artisan vendor:publish --tag="automating-mysql-partitioning-views"
 ## Usage
 
 ```php
-$automatingMysqlPartitioning = new Victor Tang\AutomatingMysqlPartitioning();
+$automatingMysqlPartitioning = new VictorTang\AutomatingMysqlPartitioning();
 echo $automatingMysqlPartitioning->echoPhrase('Hello, Victor Tang!');
 ```
 

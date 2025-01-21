@@ -1,6 +1,6 @@
 <?php
 
-namespace Victor Tang\AutomatingMysqlPartitioning\Commands;
+namespace VictorTang\AutomatingMysqlPartitioning\Commands;
 
 use Illuminate\Console\Command;
 

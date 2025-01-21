@@ -1,10 +1,10 @@
 <?php
 
-namespace Victor Tang\AutomatingMysqlPartitioning;
+namespace VictorTang\AutomatingMysqlPartitioning;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Victor Tang\AutomatingMysqlPartitioning\Commands\AutomatingMysqlPartitioningCommand;
+use VictorTang\AutomatingMysqlPartitioning\Commands\AutomatingMysqlPartitioningCommand;
 
 class AutomatingMysqlPartitioningServiceProvider extends PackageServiceProvider
 {

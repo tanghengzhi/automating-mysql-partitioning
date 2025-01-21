@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Victor Tang\\AutomatingMysqlPartitioning\\": "src/",
-            "Victor Tang\\AutomatingMysqlPartitioning\\Database\\Factories\\": "database/factories/"
+            "VictorTang\\AutomatingMysqlPartitioning\\": "src/",
+            "VictorTang\\AutomatingMysqlPartitioning\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Victor Tang\\AutomatingMysqlPartitioning\\Tests\\": "tests/",
+            "VictorTang\\AutomatingMysqlPartitioning\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Victor Tang\\AutomatingMysqlPartitioning\\AutomatingMysqlPartitioningServiceProvider"
+                "VictorTang\\AutomatingMysqlPartitioning\\AutomatingMysqlPartitioningServiceProvider"
             ],
             "aliases": {
-                "AutomatingMysqlPartitioning": "Victor Tang\\AutomatingMysqlPartitioning\\Facades\\AutomatingMysqlPartitioning"
+                "AutomatingMysqlPartitioning": "VictorTang\\AutomatingMysqlPartitioning\\Facades\\AutomatingMysqlPartitioning"
             }
         }
     },
