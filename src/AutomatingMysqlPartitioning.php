@@ -2,12 +2,9 @@
 
 namespace VictorTang\AutomatingMysqlPartitioning;
 
-class AutomatingMysqlPartitioning {
-
-    public function __construct(public string $table)
-    {
-
-    }
+class AutomatingMysqlPartitioning
+{
+    public function __construct(public string $table) {}
 
     public function addPartition()
     {
